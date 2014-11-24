@@ -7,8 +7,6 @@ public class LootBerry : MonoBehaviour {
 	private Rect inventoryWindowRect;
 	private bool inventoryWindowShow;
 
-
-	
 	public Dictionary<int, string> lootDictionary = new Dictionary<int, string>()
 	{
 		{0, string.Empty}
