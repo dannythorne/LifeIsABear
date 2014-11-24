@@ -266,6 +266,7 @@ public class PlayerController : MonoBehaviour
     if( collision.gameObject.tag == "Fox")
     {
       m_playerAttributes.curEndurance++;
+      Destroy(collision.gameObject);
     }
   }
   

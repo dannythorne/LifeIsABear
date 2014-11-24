@@ -32,7 +32,7 @@ public class Spawner : MonoBehaviour {
 	void Update () {
     for( int i = 0; i < 100; i++ )
     {
-      if( Vector3.Magnitude ( animals[i].transform.position - player.transform.position ) > 250 )
+      if( animals[i] && Vector3.Magnitude ( animals[i].transform.position - player.transform.position ) > 250 )
       {
         Destroy ( animals[i] );
 
